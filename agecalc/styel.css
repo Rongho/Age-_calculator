@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    background-image:"https://s3.envato.com/files/308833834/IMG_9861.jpg";
+  }
+  
+  body {
+    /* background-color: rgb(128, 159, 255); */
+    background-image: linear-gradient(to top,#e0bb14,#e4c307,#d4b713ea,#d47910,#ee9f0d);;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container .heading {
+    position: absolute;
+    top: 20%;
+    font-size: 3em;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+  
+  .container .input {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 500px;
+    background-color: #c06a08;
+    border-radius: 5px;
+    /* -webkit-box-shadow: 13px 11px 25px 0px rgba(54, 23, 191, 1);
+    -moz-box-shadow: 13px 11px 25px 0px rgba(54, 23, 191, 1);
+    box-shadow: 13px 11px 25px 0px rgba(54, 23, 191, 1); */
+  }
+  
+  .container .input #input_date {
+    height: 50px;
+    border-radius: 6px;
+    width: 60%;
+    padding: 0 14px;
+    font-size: 18px;
+    outline: none;
+  }
+  .container .input .submit {
+    width: 30%;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    font-family: Georgia serif;
+    font-size: 19px;
+  }
+  .container .result {
+    display: flex;
+    width: 500px;
+    padding: 0 2px;
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+  
+  .container .result .box {
+    color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(241, 148, 27);
+    /* -webkit-box-shadow: 13px 11px 25px 0px rgb(248, 246, 241);
+    -moz-box-shadow: 13px 11px 25px 0px rgb(230, 227, 215);
+    box-shadow: 13px 11px 25px 0px rgb(236, 236, 235); */
+  }
+  
+  .container .result .box span {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .container .result .box p {
+    margin-top: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+  }  
